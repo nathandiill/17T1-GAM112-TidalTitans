@@ -1,0 +1,154 @@
+fileFormatVersion: 2
+guid: 5749478f3c7264917a8a130ebd2fc150
+timeCreated: 1474066947
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Bone.001
+    100004: claw.001.L
+    100006: claw.001.R
+    100008: claw.002.L
+    100010: claw.002.R
+    100012: claw.003.L
+    100014: claw.003.R
+    100016: claw.004.L
+    100018: claw.004.R
+    100020: crab
+    100022: legBk.L.001
+    100024: legBk.L.002
+    100026: legBk.L.003
+    100028: legBk.L.004
+    100030: legBk.R.001
+    100032: legBk.R.002
+    100034: legBk.R.003
+    100036: legBk.R.004
+    100038: legFr.L.001
+    100040: legFr.L.002
+    100042: legFr.L.003
+    100044: legFr.L.004
+    100046: legFr.R.001
+    100048: legFr.R.002
+    100050: legFr.R.003
+    100052: legFr.R.004
+    100054: legMd.L.001
+    100056: legMd.L.002
+    100058: legMd.L.003
+    100060: legMd.L.004
+    100062: legMd.R.001
+    100064: legMd.R.002
+    100066: legMd.R.003
+    100068: legMd.R.004
+    100070: pincer.L
+    100072: pincer.R
+    100074: stoneCrab
+    100076: //RootNode
+    400000: Bone
+    400002: Bone.001
+    400004: claw.001.L
+    400006: claw.001.R
+    400008: claw.002.L
+    400010: claw.002.R
+    400012: claw.003.L
+    400014: claw.003.R
+    400016: claw.004.L
+    400018: claw.004.R
+    400020: crab
+    400022: legBk.L.001
+    400024: legBk.L.002
+    400026: legBk.L.003
+    400028: legBk.L.004
+    400030: legBk.R.001
+    400032: legBk.R.002
+    400034: legBk.R.003
+    400036: legBk.R.004
+    400038: legFr.L.001
+    400040: legFr.L.002
+    400042: legFr.L.003
+    400044: legFr.L.004
+    400046: legFr.R.001
+    400048: legFr.R.002
+    400050: legFr.R.003
+    400052: legFr.R.004
+    400054: legMd.L.001
+    400056: legMd.L.002
+    400058: legMd.L.003
+    400060: legMd.L.004
+    400062: legMd.R.001
+    400064: legMd.R.002
+    400066: legMd.R.003
+    400068: legMd.R.004
+    400070: pincer.L
+    400072: pincer.R
+    400074: stoneCrab
+    400076: //RootNode
+    4300000: stoneCrab
+    7400000: crab|crabSnip
+    7400002: crab|crabWalk
+    9500000: //RootNode
+    13700000: stoneCrab
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
