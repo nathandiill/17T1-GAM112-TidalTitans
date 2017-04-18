@@ -1,0 +1,111 @@
+fileFormatVersion: 2
+guid: 7eda9fb08d6784074925af7ff8114073
+timeCreated: 1474061944
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: caudalFin
+    100004: cog
+    100006: dorsalFin01
+    100008: dorsalFin02
+    100010: dorsalFin03
+    100012: head
+    100014: jaw
+    100016: lionFish
+    100018: //RootNode
+    100020: nose
+    100022: pecFin.L
+    100024: pecFin.R
+    100026: tail01
+    100028: tail02
+    400000: Armature
+    400002: caudalFin
+    400004: cog
+    400006: dorsalFin01
+    400008: dorsalFin02
+    400010: dorsalFin03
+    400012: head
+    400014: jaw
+    400016: lionFish
+    400018: //RootNode
+    400020: nose
+    400022: pecFin.L
+    400024: pecFin.R
+    400026: tail01
+    400028: tail02
+    4300000: lionFish
+    7400000: Armature|lionfishCombined
+    7400002: Armature|lionfishIdle
+    7400004: Armature|lionfishNip
+    7400006: Armature|lionfishShark
+    7400008: Armature|lionfishSurprise
+    7400010: Armature|lionfishSwim
+    7400012: Scene
+    9500000: //RootNode
+    13700000: lionFish
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
