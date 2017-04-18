@@ -7,11 +7,14 @@ public class Enemy : MonoBehaviour {
     public float speed = 10f;
     public Transform target;
     private int wavepointindex = 0;
+    public GameObject Manager;
 
     void Start()
     {
+        
         // Set target to the first waypoint
         target = waypoint_script.points[0];
+        
     }
 
     void Update()
