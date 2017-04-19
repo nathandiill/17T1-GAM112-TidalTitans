@@ -13,6 +13,9 @@ public class Cans : MonoBehaviour {
         Instance = this;
     }
 
+    public int CurrentCans;
+    
+
     void getCurrency()
     {
 
