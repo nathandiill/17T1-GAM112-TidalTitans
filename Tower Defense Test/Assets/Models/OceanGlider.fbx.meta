@@ -1,0 +1,249 @@
+fileFormatVersion: 2
+guid: 74ef8c8974c36284baa1b6c066c481b7
+timeCreated: 1492559740
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ball_l
+    100002: ball_r
+    100004: ball_r001
+    100006: calf_l
+    100008: calf_r
+    100010: clavicle_l
+    100012: clavicle_r
+    100014: Cylinder001
+    100016: default
+    100018: default_MeshPart0
+    100020: default_MeshPart1
+    100022: foot_l
+    100024: foot_r
+    100026: hand_l
+    100028: hand_r
+    100030: head
+    100032: index_01_l
+    100034: index_01_r
+    100036: index_02_l
+    100038: index_02_r
+    100040: index_03_l
+    100042: index_03_r
+    100044: lowerarm_l
+    100046: lowerarm_r
+    100048: mesh01
+    100050: middle_01_l
+    100052: middle_01_r
+    100054: middle_02_l
+    100056: middle_02_r
+    100058: middle_03_l
+    100060: middle_03_r
+    100062: neck_01
+    100064: //RootNode
+    100066: orbiter bugship
+    100068: pelvis
+    100070: pinky_01_l
+    100072: pinky_01_r
+    100074: pinky_02_l
+    100076: pinky_02_r
+    100078: pinky_03_l
+    100080: pinky_03_r
+    100082: Pyramid001
+    100084: Pyramid002
+    100086: ring_01_l
+    100088: ring_01_r
+    100090: ring_02_l
+    100092: ring_02_r
+    100094: ring_03_l
+    100096: ring_03_r
+    100098: Root
+    100100: scubadiver
+    100102: scubadiver-highpolyeyes
+    100104: scubadiver-male_generic
+    100106: spine_01
+    100108: spine_02
+    100110: spine_03
+    100112: Teapot001
+    100114: thigh_l
+    100116: thigh_r
+    100118: thumb_01_l
+    100120: thumb_01_r
+    100122: thumb_02_l
+    100124: thumb_02_r
+    100126: thumb_03_l
+    100128: thumb_03_r
+    100130: Torus001
+    100132: Tube001
+    100134: upperarm_l
+    100136: upperarm_r
+    400000: ball_l
+    400002: ball_r
+    400004: ball_r001
+    400006: calf_l
+    400008: calf_r
+    400010: clavicle_l
+    400012: clavicle_r
+    400014: Cylinder001
+    400016: default
+    400018: default_MeshPart0
+    400020: default_MeshPart1
+    400022: foot_l
+    400024: foot_r
+    400026: hand_l
+    400028: hand_r
+    400030: head
+    400032: index_01_l
+    400034: index_01_r
+    400036: index_02_l
+    400038: index_02_r
+    400040: index_03_l
+    400042: index_03_r
+    400044: lowerarm_l
+    400046: lowerarm_r
+    400048: mesh01
+    400050: middle_01_l
+    400052: middle_01_r
+    400054: middle_02_l
+    400056: middle_02_r
+    400058: middle_03_l
+    400060: middle_03_r
+    400062: neck_01
+    400064: //RootNode
+    400066: orbiter bugship
+    400068: pelvis
+    400070: pinky_01_l
+    400072: pinky_01_r
+    400074: pinky_02_l
+    400076: pinky_02_r
+    400078: pinky_03_l
+    400080: pinky_03_r
+    400082: Pyramid001
+    400084: Pyramid002
+    400086: ring_01_l
+    400088: ring_01_r
+    400090: ring_02_l
+    400092: ring_02_r
+    400094: ring_03_l
+    400096: ring_03_r
+    400098: Root
+    400100: scubadiver
+    400102: scubadiver-highpolyeyes
+    400104: scubadiver-male_generic
+    400106: spine_01
+    400108: spine_02
+    400110: spine_03
+    400112: Teapot001
+    400114: thigh_l
+    400116: thigh_r
+    400118: thumb_01_l
+    400120: thumb_01_r
+    400122: thumb_02_l
+    400124: thumb_02_r
+    400126: thumb_03_l
+    400128: thumb_03_r
+    400130: Torus001
+    400132: Tube001
+    400134: upperarm_l
+    400136: upperarm_r
+    2300000: Cylinder001
+    2300002: default_MeshPart0
+    2300004: default_MeshPart1
+    2300006: mesh01
+    2300008: orbiter bugship
+    2300010: Pyramid001
+    2300012: Pyramid002
+    2300014: scubadiver-highpolyeyes
+    2300016: scubadiver-male_generic
+    2300018: Teapot001
+    2300020: Torus001
+    2300022: Tube001
+    3300000: Cylinder001
+    3300002: default_MeshPart0
+    3300004: default_MeshPart1
+    3300006: mesh01
+    3300008: orbiter bugship
+    3300010: Pyramid001
+    3300012: Pyramid002
+    3300014: scubadiver-highpolyeyes
+    3300016: scubadiver-male_generic
+    3300018: Teapot001
+    3300020: Torus001
+    3300022: Tube001
+    4300000: scubadiver-male_generic
+    4300002: scubadiver-highpolyeyes
+    4300004: Cylinder001
+    4300006: Pyramid001
+    4300008: Torus001
+    4300010: Tube001
+    4300012: Pyramid002
+    4300014: Teapot001
+    4300016: default_MeshPart0
+    4300018: default_MeshPart1
+    4300020: mesh01
+    4300022: orbiter bugship
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

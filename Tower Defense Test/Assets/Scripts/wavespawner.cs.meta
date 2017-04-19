@@ -1,10 +1,20 @@
 fileFormatVersion: 2
 guid: 147ed8fa7ce6dec43bcc0e24d085a280
-timeCreated: 1491853915
+timeCreated: 1492560798
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - ScubaDiverPrefab: {fileID: 1623032405251266, guid: 2ea3f56e95cf8d64790d71a79cd8051f,
+      type: 2}
+  - CagePrefab: {fileID: 1479059452046890, guid: d9c602f3e60209c439b01748a974908b,
+      type: 2}
+  - BossPrefab: {fileID: 1137712666470064, guid: fb771a97f0674364089dfce17a2e37a1,
+      type: 2}
+  - spawnpoint: {instanceID: 0}
+  - WaveText: {instanceID: 0}
+  - Manager: {instanceID: 0}
+  - GameManagerClass: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

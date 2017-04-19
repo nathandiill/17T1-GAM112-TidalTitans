@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class wavespawner : MonoBehaviour {
 
-    public GameObject DiverPrefab;
+    public GameObject ScubaDiverPrefab;
     public GameObject CagePrefab;
     public GameObject BossPrefab;
     public Transform spawnpoint;
@@ -49,19 +49,15 @@ public class wavespawner : MonoBehaviour {
 
     void SpawnEnemy()
     {
-        Instantiate(DiverPrefab, spawnpoint.position, spawnpoint.rotation);
+        Instantiate(ScubaDiverPrefab, spawnpoint.position, spawnpoint.rotation);
+        //GameManagerClass += 1;
     }
     void SpawnCage()
     {
         Instantiate(CagePrefab, spawnpoint.position, spawnpoint.rotation);
     }
-    void SpawnBoss()
-    {
-        Instantiate(BossPrefab, spawnpoint.position, spawnpoint.rotation);
-    }
-
-    void Start()
-    {
-
-    }
+    //void SpawnBoss()
+    //{
+    //    Instantiate(BossPrefab, spawnpoint.position, spawnpoint.rotation);
+    //}
 }
