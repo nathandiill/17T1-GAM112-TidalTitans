@@ -6,61 +6,128 @@ public class wavespawner : MonoBehaviour {
 
     public GameObject ScubaDiverPrefab;
     public GameObject CagePrefab;
+    public GameObject OceanGliderPrefab;
     public GameObject BossPrefab;
     public Transform spawnpoint;
     public float timebetweenwaves = 5f;
     private float countdown = 2f;
-    private int wavenumber = 0;
+    private int wavenumber = 1;
     public Text WaveText;
-    public GameObject Manager = GameObject.Find("GameMaster");
+    public GameObject Manager;
     public Component GameManagerClass;
+    private bool SpawnWaveOne = true;
+    private bool SpawnWaveTwo = false;
+    private bool SpawnWaveThree = false;
 
-   
+    void Start()
+    {
+        Manager = GameObject.Find("GameMaster");
+    }
+
     void Update()
     {
-        if(countdown <= 0)
+        if (SpawnWaveOne == true)
         {
-            StartCoroutine(SpawnWave());
-            countdown = timebetweenwaves;
-
+            StartCoroutine(WaveOne());
+            SpawnWaveOne = false;
         }
-        countdown -= Time.deltaTime;
+        if (SpawnWaveTwo == true)
+        {
+            StartCoroutine(WaveTwo());
+            SpawnWaveTwo = false;
+        }
+        if (SpawnWaveThree == true)
+        {
+            StartCoroutine(WaveThree());
+            SpawnWaveThree = false;
+        }
         WaveText.text = "Wave: " + wavenumber.ToString();
     }
 
-    IEnumerator SpawnWave()
+    IEnumerator WaveOne()
     {
-        wavenumber++;
-        for (int i = 0; i < wavenumber; i++)
+        for (int i = 0; i < 51; i++)
         {
-            SpawnEnemy();
-            yield return new WaitForSeconds(0.5f);
-            if(wavenumber >= 5)
+            SpawnScubaDiver();
+            yield return new WaitForSeconds(1f);
+            if (i > 10 && i < 16)
             {
                 SpawnCage();
-                yield return new WaitForSeconds(0.8f);
             }
-            if(wavenumber == 10)
+            yield return new WaitForSeconds(1f);
+            if(i == 50)
             {
-                Instantiate(BossPrefab, spawnpoint.position, spawnpoint.rotation);
+                SpawnWaveTwo = true;
+                wavenumber = 2;
             }
         }
     }
 
-    void SpawnEnemy()
+    IEnumerator WaveTwo()
+    {
+        for (int i = 0; i < 51; i++)
+        {
+            SpawnScubaDiver();
+            yield return new WaitForSeconds(0.7f);
+            if (i > 10 && i < 21)
+            {
+                SpawnCage();
+            }
+            yield return new WaitForSeconds(0.7f);
+            if (i > 15 && i < 21)
+            {
+                SpawnOceanGlider();
+            }
+            yield return new WaitForSeconds(0.7f);
+            if (i == 50)
+            {
+                SpawnWaveThree = true;
+                wavenumber = 3;
+            }
+        }
+    }
+
+    IEnumerator WaveThree()
+    {
+        for (int i = 0; i < 51; i++)
+        {
+            SpawnScubaDiver();
+            yield return new WaitForSeconds(0.7f);
+            if (i > 10 && i < 31)
+            {
+                SpawnCage();
+            }
+            yield return new WaitForSeconds(0.7f);
+            if (i > 15 && i < 21)
+            {
+                SpawnOceanGlider();
+            }
+            yield return new WaitForSeconds(0.7f);
+            if (i == 41)
+            {
+                SpawnBoss();
+            }
+        }
+    }
+
+    void SpawnScubaDiver()
     {
         Instantiate(ScubaDiverPrefab, spawnpoint.position, spawnpoint.rotation);
+
         //GameManagerClass += 1;
 
         // use this on the attack script so a sound can play for each sperate turret SoundManager.Instance.SparkyAudio();
-   
     }
     void SpawnCage()
     {
         Instantiate(CagePrefab, spawnpoint.position, spawnpoint.rotation);
     }
-    //void SpawnBoss()
-    //{
-    //    Instantiate(BossPrefab, spawnpoint.position, spawnpoint.rotation);
-    //}
+    void SpawnOceanGlider()
+    {
+        Instantiate(OceanGliderPrefab, spawnpoint.position, spawnpoint.rotation);
+    }
+    void SpawnBoss()
+    {
+        Instantiate(BossPrefab, spawnpoint.position, spawnpoint.rotation);
+    }
 }

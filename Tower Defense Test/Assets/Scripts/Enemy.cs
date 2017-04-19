@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour {
         // If the enemy reaches the end this code will run
         if (wavepointindex >= waypoint_script.points.Length -1)
         {
-            Destroy(gameObject);
+            Destroy(gameObject, 5f);
             return;
         }
         // Gets the next waypoint

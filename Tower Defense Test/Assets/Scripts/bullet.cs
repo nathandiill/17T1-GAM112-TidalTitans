@@ -5,18 +5,13 @@ public class bullet : MonoBehaviour {
     private Transform target;
     public float speed = 70f;
     public GameObject impactEffect;
-    public GameObject Enemy;
-    private Enemy enemyscript;
+
 
     public void seek (Transform _target)
     {
         target = _target;
     }
 
-    void Start()
-    {
-        enemyscript = Enemy.GetComponent<Enemy>();
-    }
 	
 	// Update is called once per frame
 	void Update () {
