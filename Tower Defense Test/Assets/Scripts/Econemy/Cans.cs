@@ -13,12 +13,17 @@ public class Cans : MonoBehaviour {
         Instance = this;
     }
 
-    public int CurrentCans;
+    public int CurrentCans = 10;
     
 
-    void getCurrency()
+    void getCurrency(int CurrentCans, int GainCans)
     {
+        CurrentCans = CurrentCans + GainCans;
+    }
 
+    void loseCurrency(int CurrentCans, int LoseCans)
+    {
+        CurrentCans = CurrentCans - LoseCans;
     }
 
     void Start ()
