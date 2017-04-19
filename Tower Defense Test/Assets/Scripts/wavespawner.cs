@@ -15,7 +15,7 @@ public class wavespawner : MonoBehaviour {
     public GameObject Manager = GameObject.Find("GameMaster");
     public Component GameManagerClass;
 
-
+   
     void Update()
     {
         if(countdown <= 0)
@@ -51,6 +51,9 @@ public class wavespawner : MonoBehaviour {
     {
         Instantiate(ScubaDiverPrefab, spawnpoint.position, spawnpoint.rotation);
         //GameManagerClass += 1;
+
+        // use this on the attack script so a sound can play for each sperate turret SoundManager.Instance.SparkyAudio();
+   
     }
     void SpawnCage()
     {
