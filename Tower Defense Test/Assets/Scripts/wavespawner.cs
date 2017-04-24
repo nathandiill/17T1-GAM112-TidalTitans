@@ -49,12 +49,12 @@ public class wavespawner : MonoBehaviour {
         for (int i = 0; i < 51; i++)
         {
             SpawnScubaDiver();
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
             if (i > 10 && i < 16)
             {
                 SpawnCage();
             }
-            yield return new WaitForSeconds(1f);
+            yield return new WaitForSeconds(0.5f);
             if(i == 50)
             {
                 SpawnWaveTwo = true;

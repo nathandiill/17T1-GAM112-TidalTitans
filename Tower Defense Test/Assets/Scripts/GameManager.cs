@@ -7,18 +7,15 @@ public class GameManager : MonoBehaviour {
     public int enemycount = 0;
     public bool startingnet = true;
     public float timer = 25;
+    public int lives = 3;
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	//void Update () {
- //       timer -= Time.deltaTime;
- //       if(enemycount == 0 && timer < 0)
- //       {
- //           SceneManager.LoadScene("MainMenu");
- //       }
-	//}
+    // Use this for initialization
+    void Update()
+    {
+        if(lives <= 0)
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
+    }
+
 }
