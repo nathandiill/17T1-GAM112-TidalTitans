@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Cans : MonoBehaviour {
     // UI
@@ -14,7 +15,7 @@ public class Cans : MonoBehaviour {
     }
 
     public int CurrentCans = 10;
-    
+    public Text currentCans;
 
     void getCurrency(int CurrentCans, int GainCans)
     {
@@ -33,6 +34,6 @@ public class Cans : MonoBehaviour {
 	
 	void Update ()
     {
-		
+
 	}
 }

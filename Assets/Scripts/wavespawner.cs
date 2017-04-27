@@ -46,7 +46,7 @@ public class wavespawner : MonoBehaviour {
 
     IEnumerator WaveOne()
     {
-        for (int i = 0; i < 51; i++)
+        for (int i = 0; i < 26; i++)
         {
             SpawnScubaDiver();
             yield return new WaitForSeconds(0.5f);
@@ -55,7 +55,7 @@ public class wavespawner : MonoBehaviour {
                 SpawnCage();
             }
             yield return new WaitForSeconds(0.5f);
-            if(i == 50)
+            if(i == 25)
             {
                 SpawnWaveTwo = true;
                 wavenumber = 2;
@@ -65,21 +65,21 @@ public class wavespawner : MonoBehaviour {
 
     IEnumerator WaveTwo()
     {
-        for (int i = 0; i < 51; i++)
+        for (int i = 0; i < 26; i++)
         {
             SpawnScubaDiver();
             yield return new WaitForSeconds(0.7f);
-            if (i > 10 && i < 21)
+            if (i > 5 && i < 15)
             {
                 SpawnCage();
             }
             yield return new WaitForSeconds(0.7f);
-            if (i > 15 && i < 21)
+            if (i > 10 && i < 20)
             {
                 SpawnOceanGlider();
             }
             yield return new WaitForSeconds(0.7f);
-            if (i == 50)
+            if (i == 25)
             {
                 SpawnWaveThree = true;
                 wavenumber = 3;
@@ -89,21 +89,21 @@ public class wavespawner : MonoBehaviour {
 
     IEnumerator WaveThree()
     {
-        for (int i = 0; i < 51; i++)
+        for (int i = 0; i < 26; i++)
         {
             SpawnScubaDiver();
             yield return new WaitForSeconds(0.7f);
-            if (i > 10 && i < 31)
+            if (i > 5 && i < 20)
             {
                 SpawnCage();
             }
             yield return new WaitForSeconds(0.7f);
-            if (i > 15 && i < 21)
+            if (i > 10 && i < 20)
             {
                 SpawnOceanGlider();
             }
             yield return new WaitForSeconds(0.7f);
-            if (i == 41)
+            if (i == 22)
             {
                 SpawnBoss();
             }

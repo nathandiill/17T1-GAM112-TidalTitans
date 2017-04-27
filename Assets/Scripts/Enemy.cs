@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour {
 
@@ -10,12 +11,13 @@ public class Enemy : MonoBehaviour {
     private int wavepointindex = 0;
     public int enemyhealth = 1;
     private bool isDead;
-    public Transform GameManager;
+    public GameObject GameMaster;
+    public Transform GM;
     
 
     void Start()
     {
-
+        
         // Set target to the first waypoint
         target = waypoint_script.points[0];
 
@@ -23,6 +25,7 @@ public class Enemy : MonoBehaviour {
 
     void Update()
     {
+        transform.LookAt(target);
         // Move towards the waypoint until you reach it
         Vector3 direction = target.position - transform.position;
         transform.Translate(direction.normalized * speed * Time.deltaTime, Space.World);
@@ -34,6 +37,7 @@ public class Enemy : MonoBehaviour {
         }
         if(enemyhealth <= 0)
         {
+            
             DestroyObject(gameObject);
         }
     }
@@ -44,7 +48,7 @@ public class Enemy : MonoBehaviour {
         // If the enemy reaches the end this code will run
         if (wavepointindex >= waypoint_script.points.Length - 1)
         {
-            LoseLife(GameManager);
+            //LoseLife(GameManager);
             Destroy(gameObject);
             return;
         }
@@ -69,9 +73,9 @@ public class Enemy : MonoBehaviour {
         //PlayerStats.Money += worth;
         Destroy(gameObject);
     }
-    void LoseLife(Transform GameM)
-    {
-        GameManager GM = GameM.GetComponent<GameManager>();
-        GM.lives -= 1;
-    }
+    //void LoseLife(Transform GameM)
+    //{
+    //    //GameManager GM = GameM.GetComponent<GameManager>();
+    //    GM.lives -= 1;
+    //}
 }

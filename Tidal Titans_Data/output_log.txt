@@ -7,25 +7,73 @@ Direct3D:
     VRAM:     2023 MB
     Driver:   15.201.2001.0
 Begin MonoManager ReloadAssembly
-Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.dll (this message is harmless)
-Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.dll into Unity Child Domain
-Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\Assembly-CSharp.dll (this message is harmless)
-Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
-Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.UI.dll (this message is harmless)
-Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
-Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
-Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
-Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
-Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
-Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
-Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
-- Completed reload, in  0.266 seconds
-Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\System.Core.dll (this message is harmless)
-Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\System.dll (this message is harmless)
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.030 seconds
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tidal Titans_Data\Managed\System.dll (this message is harmless)
 desktop: 3200x1800 60Hz; virtual: 3200x1800 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 78.826050 ms
+UnloadTime: 2.237590 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 2d1c -> priority: 1 
+  Thread -> id: 299c -> priority: 1 
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 15.461987 ms
+
+Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 269.
+Total: 5.184792 ms (FindLiveObjects: 0.034004 ms CreateObjectMapping: 0.040100 ms MarkObjects: 0.423778 ms  DeleteObjects: 4.674397 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.469332 ms
+
+Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 323.
+Total: 0.375979 ms (FindLiveObjects: 0.025984 ms CreateObjectMapping: 0.027909 ms MarkObjects: 0.311177 ms  DeleteObjects: 0.010586 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.470936 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2421.
+Total: 2.283785 ms (FindLiveObjects: 0.067047 ms CreateObjectMapping: 0.042666 ms MarkObjects: 0.460029 ms  DeleteObjects: 1.714042 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.927116 ms
+
+Unloading 263 unused Assets to reduce memory usage. Loaded Objects now: 602.
+Total: 3.119473 ms (FindLiveObjects: 0.017323 ms CreateObjectMapping: 0.026947 ms MarkObjects: 0.182856 ms  DeleteObjects: 2.892345 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.566535 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2400.
+Total: 2.062111 ms (FindLiveObjects: 0.066405 ms CreateObjectMapping: 0.045553 ms MarkObjects: 0.285192 ms  DeleteObjects: 1.664959 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.806494 ms
+
+Unloading 262 unused Assets to reduce memory usage. Loaded Objects now: 602.
+Total: 3.057558 ms (FindLiveObjects: 0.017644 ms CreateObjectMapping: 0.026626 ms MarkObjects: 0.175478 ms  DeleteObjects: 2.837809 ms)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.875467 ms
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2601.
+Total: 6.642835 ms (FindLiveObjects: 0.259849 ms CreateObjectMapping: 0.199217 ms MarkObjects: 1.166113 ms  DeleteObjects: 5.016372 ms)
+
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.077572 ms
+
+Unloading 269 unused Assets to reduce memory usage. Loaded Objects now: 602.
+Total: 2.959714 ms (FindLiveObjects: 0.017644 ms CreateObjectMapping: 0.027268 ms MarkObjects: 0.184781 ms  DeleteObjects: 2.730020 ms)
+
