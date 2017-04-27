@@ -11,13 +11,12 @@ public class Enemy : MonoBehaviour {
     private int wavepointindex = 0;
     public int enemyhealth = 1;
     private bool isDead;
-    public GameObject GameMaster;
-    public Transform GM;
+    public GameObject GM;
     
 
     void Start()
     {
-        
+        GM = GameObject.FindGameObjectWithTag("Game_Master");
         // Set target to the first waypoint
         target = waypoint_script.points[0];
 
@@ -37,7 +36,6 @@ public class Enemy : MonoBehaviour {
         }
         if(enemyhealth <= 0)
         {
-            
             DestroyObject(gameObject);
         }
     }
@@ -49,6 +47,8 @@ public class Enemy : MonoBehaviour {
         if (wavepointindex >= waypoint_script.points.Length - 1)
         {
             //LoseLife(GameManager);
+            GM.GetComponent<GameManager>().LoseLife();
+            Debug.Log("Lives: " + GM.GetComponent<GameManager>().lives);
             Destroy(gameObject);
             return;
         }

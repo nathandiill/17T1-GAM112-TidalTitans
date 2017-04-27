@@ -29,4 +29,9 @@ public class GameManager : MonoBehaviour
         // curText.text = Stating_currency.ToString();
         // costOfTower -= GetComponent<node>().turret.GetComponent<turret>().cost;
     }
+    public void LoseLife()
+    {
+        lives = lives - 1;
+        return;
+    }
 }
