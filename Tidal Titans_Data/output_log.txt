@@ -1,0 +1,31 @@
+Initialize engine version: 5.5.1f1 (88d00a7498cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon R9 M380 (ID=0x6640)
+    Vendor:   ATI
+    VRAM:     2023 MB
+    Driver:   15.201.2001.0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.266 seconds
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\tshaw3\Documents\17T1-GAM112-TidalTitans\Tower Defense Test\Tidal Titans_Data\Managed\System.dll (this message is harmless)
+desktop: 3200x1800 60Hz; virtual: 3200x1800 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+UnloadTime: 78.826050 ms
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: 2d1c -> priority: 1 
